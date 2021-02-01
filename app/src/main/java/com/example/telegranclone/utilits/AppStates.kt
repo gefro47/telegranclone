@@ -3,7 +3,7 @@ package com.example.telegranclone.utilits
 enum class AppStates(val state:String) {
     ONLINE("в сети"),
     OFFLINE("был недавно"),
-    TAPING("печатает");
+    TAPING("печатает...");
 
     companion object{
         fun updateState(appStates: AppStates){
